@@ -5,22 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Just Dance</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/connect.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <section>
-        <div>
-            <img src="" alt="QR">
-            <span>Sala de baile</span>
-            <span>3499</span>
-        </div>
-        <div>
+    <section class="connect">
+        <div class="room">
+            <img src="./assets/qr.png" alt="QR">
             <div>
+                <div class="room-title">Sala de baile</div>
+                <div class="room-number">3499</div>
+            </div>
+        </div>
+        <div class="main-connect">
+            <div class="connect-title">
                 <h1>Conecta tu teléfono para jugar</h1>
                 <button>
                     <img src="" alt="Q">
                 </button>
             </div>
-            <div>
+            <div class="connect-actions">
                 <button>
                     <img src="" alt="SET">
                 </button>
@@ -31,57 +40,82 @@
         </div>
     </section>
 
-    <nav>
-        <div>
-            <button>
-                <img src="" alt="PL">
+    <nav class="nav-actions">
+        <div >
+            <button class="nav-button-selected">
+                <img src="./assets/icon-playlist.svg" alt="PL">
                 <span>Playlists</span>
             </button>
-            <button>
-                <img src="" alt="SO">
+            <button class="nav-button">
+                <img src="./assets/icon-music.svg" alt="SO">
                 <span>Canciones</span>
             </button>
         </div>
         <div>
-            <button>
+            <button class="nav-question">
                 <img src="" alt="Q">
             </button>
         </div>
     </nav>
 
-    <main>
+    <main class="main-content">
         <div>
-            <div>
-                <span>Catálogo de canciones</span>
-                <h3>¡Un catálogo cada vez mayor de más de 500 canciones!</h3>
-            </div>
-            <div>
-                <button>
-                    <img src="" alt="PREV">
-                    <span>24 Magic</span>
-                    <span>Bruno Mars</span>
-                </button>
-            </div>
-        </div>
-        <div>
-            <div>
-                <h2>24 Magic</h2>
-                <span>Bruno Mars</span>
+            <div class="all-songs">
                 <div>
-                    <video src=""></video>
-                    <div>
-                        <img src="" alt="BA">
-                        <span>Extrema</span>
-                    </div>
+                    <span>Catálogo de canciones</span>
+                    <h3>¡Un catálogo cada vez mayor de más de 500 canciones!</h3>
+                </div>
+                <div class="card-songs-container">
+                    <button class="song">
+                        <img src="https://jdnow-api-contentapistoragest.justdancenow.com/songs/24KALT_1597235144379/assets/web/24kalt_small.jpg" alt="PREV">
+                        <div>
+                            <span>24 Magic</span>
+                            <span>Bruno Mars</span>
+                        </div>
+                    </button>
+                    <button class="song">
+                        <img src="https://jdnow-api-contentapistoragest.justdancenow.com/songs/24KALT_1597235144379/assets/web/24kalt_small.jpg" alt="PREV">
+                        <div>
+                            <span>24 Magic</span>
+                            <span>Bruno Mars</span>
+                        </div>
+                    </button>
+                    <button class="song">
+                        <img src="https://jdnow-api-contentapistoragest.justdancenow.com/songs/24KALT_1597235144379/assets/web/24kalt_small.jpg" alt="PREV">
+                        <div>
+                            <span>24 Magic</span>
+                            <span>Bruno Mars</span>
+                        </div>
+                    </button>
+                    <button class="song">
+                        <img src="https://jdnow-api-contentapistoragest.justdancenow.com/songs/24KALT_1597235144379/assets/web/24kalt_small.jpg" alt="PREV">
+                        <div>
+                            <span>24 Magic</span>
+                            <span>Bruno Mars</span>
+                        </div>
+                    </button>
                 </div>
             </div>
-            <button>
-                <span>¡Bailar!</span>
-            </button>
-            <div>
-                <img src="" alt="STAR">
+            <div class="preview">
+                <div>
+                    <h2>24 Magic</h2>
+                    <span>Bruno Mars</span>
+                    <div>
+                        <video src=""></video>
+                        <div>
+                            <img src="" alt="BA">
+                            <span>Extrema</span>
+                        </div>
+                    </div>
+                </div>
+                <button>
+                    <span>¡Bailar!</span>
+                </button>
+                <div>
+                    <img src="" alt="STAR">
+                </div>
             </div>
-        </div>
+        </div> 
     </main>
     
 </body>

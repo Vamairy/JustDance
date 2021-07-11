@@ -1,0 +1,42 @@
+@font-face {
+    font-family: JustDance;
+    src: local("Just_Dance_Bold"), url(../assets/Just_Dance_Bold.woff) format("woff");
+    font-style: normal;
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 6% 94%;
+    grid-template-rows: 15% 85%;
+    grid-template-areas: "connect connect"
+    "nav main";
+}
+
+.connect {
+    grid-area: connect;
+    background-color: rgb(174, 0, 159);
+}
+
+nav {
+    grid-area: nav;
+    background-color: tomato;
+}
+
+main {
+    grid-area: main;
+    background-color: white;
+}
+
+:root {
+    --room-color: rgb(120, 0, 124);
+}

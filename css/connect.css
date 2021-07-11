@@ -1,0 +1,56 @@
+.connect {
+    display: flex;
+
+}
+.room {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    width: 20%;
+}
+
+.room img {
+    margin-right: 10px;
+    width: 120px;
+    height: 120px;
+}
+
+.room-title {
+    color: var(--room-color);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 12px;
+}
+
+.room-number {
+    color: var(--room-color);
+    font-size: 68px;
+    font-family: "JustDance";
+    font-weight: 700;
+    line-height: 68px;
+}
+
+.main-connect {
+    display: flex;
+    width: 80%;
+    background: rgb(230,64,227);
+    background: linear-gradient(87deg, rgba(230,64,227,1) 0%, rgba(42,181,249,1) 48%, rgba(230,64,227,1) 100%);
+}
+
+.connect-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.connect-title h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.connect-actions {
+    width: 100px;
+}
+
